@@ -5,8 +5,7 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose');
 const app = express();
 const cors = require('cors');
-const router = require('router')
-//const router = require('./routes/router')
+const router = require('./routes/routes')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}))

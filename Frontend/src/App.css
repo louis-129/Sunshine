@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.productBox {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.productBox li {
+  display: inline-block; /* Display list items inline */
+  margin: 0 10px; /* Add some spacing between items */
+  text-align: center; /* Center the content */
+}
+
+.productImage {
+  max-width: 10%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.productCaption {
+  color: #333; /* Set caption color */
+  font-size: 16px; /* Set font size */
+  margin-top: 5px; /* Add some space between image and caption */
+}
